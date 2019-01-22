@@ -1,0 +1,84 @@
+﻿html, body{
+    background-color:black;
+    overflow:hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.cbTitle { position: absolute; top: 0%; left: 4%; z-index: 4;  }
+.cbCR { position: absolute; bottom: 0.5%; left: 1%; z-index: 4;  }
+.cbVR { position: absolute; bottom: 0.5%; right: 1%; z-index: 4;  }
+.cbFont { color: white; font-size: 1.8vw !important; font-family: Segoe UI Light, Segoe UI, Segoe, Tahoma, Helvetica, Arial, sans-serif; }
+.cbLogo { position: absolute; top: 0%; left: 1%; width:2.5%; height:5%; z-index:4; }
+.topBackground { position:absolute; top:0px; left:0px; width:100%; height:5%; z-index:3; background-color:black; }
+.bottomBackground { position:absolute; bottom:0px; left:0px; width:100%; height:5%; z-index:3; background-color:black; }
+.modal-content2 { margin: auto; display: block; width: 70%; height:90%; }
+.cbIcon:hover {
+    opacity: .38;
+}
+
+.s8_container {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+    background-image: url('../images/s8_theme15.jpg');
+    z-index:0;
+}
+
+.resize-drag {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  /*border-radius: 8px;*/
+  padding: 20px;
+  margin: 30px 20px;
+  width: 25%;
+
+  /* This makes things *much* easier */
+  box-sizing: border-box;
+  z-index:2;
+}
+
+.s8_window {
+    position:absolute;
+    z-index:2;
+    width: 31.5%;
+    height:42%;
+}
+
+.s8_1 {left: 0%; top:2%; }
+.s8_2 {left: 32.7%; top:2%; }
+.s8_3 {left: 65.58%; top:2%; }
+.s8_4 {left: 0%; top:46%; }
+.s8_5 {left: 32.7%; top:46%; }
+.s8_6 {left: 65.58%; top:46%; }
+
+.s8_window_background {
+    background: dimgray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(dimgray, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(dimgray, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(dimgray, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(dimgray, black); /* Standard syntax */
+    opacity:.58;
+}
+
+.s8_window_background2 {
+    background: dimgray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(dimgray, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(dimgray, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(dimgray, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(dimgray, black); /* Standard syntax */
+    opacity:1;
+}
+
+.s8line {
+    position:relative;
+    border:1px solid white;
+    width:100%;
+    bottom:0px;
+}

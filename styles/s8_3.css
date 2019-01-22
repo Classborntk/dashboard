@@ -1,0 +1,16 @@
+﻿html, body{
+    background-color:transparent;
+    overflow-y: visible;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.cbBody { background-color:transparent; }
+.cbFont { font-size: 22vw !important; font-family: Segoe UI Light, Segoe UI, Segoe, Tahoma, Helvetica, Arial, sans-serif; }
+.cbFont2 { font-size: 5vw !important; font-family: Segoe UI Light, Segoe UI, Segoe, Tahoma, Helvetica, Arial, sans-serif; }
+.cbFont3 { font-size: 3vw !important; font-family: Segoe UI Light, Segoe UI, Segoe, Tahoma, Helvetica, Arial, sans-serif; }
+@-webkit-keyframes zoom { from {-webkit-transform:scale(0)} to {-webkit-transform:scale(1)} }
+@keyframes zoom { from {transform:scale(0)} to {transform:scale(1)} }
