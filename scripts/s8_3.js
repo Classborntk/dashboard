@@ -1,4 +1,4 @@
-﻿var url = 'http://classborn.byethost7.com/php/geturl.php?urlpage=https://api.coincap.io/v2/assets?limit=100';
+﻿var url = 'http://classborn.byethost7.com/php/geturl.php?urlpage=https://api.coincap.io/v2/assets';
 var iframe;
 var ssymbol;
 var scap;
