@@ -19,10 +19,12 @@
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
   curl_setopt($ch, CURLOPT_VERBOSE, 1);
 
-  $data = str_replace("'",'´',curl_exec($ch));
+  $data = str_replace("'",'Â´',curl_exec($ch));
+  $result = strstr($data, '{');
+  
   curl_close($ch); 
   echo '<!DOCTYPE html><html><head><script type="text/javascript"> ';
-  echo " function onloadPage() { window.parent.postMessage('" . preg_replace( "/\r|\n/", "", $data ) . "', '*'); } ";
+  echo " function onloadPage() { window.parent.postMessage('" . preg_replace( "/\r|\n/", "", $result ) . "', '*'); } ";
   echo ' </script></head><body onload="return onloadPage()"></body></html>';
 
 ?>

@@ -26,9 +26,10 @@
   curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4 );
 
   $data = curl_exec($ch);
+  $result = strstr($data, '{');
   if(curl_errno($ch)){
     echo 'Curl error: ' . curl_error($ch);
   }
   curl_close($ch);
-  echo $data;
+  echo $result;
 ?>
