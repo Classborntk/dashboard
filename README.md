@@ -3,7 +3,7 @@ Free Cryptocurrency Dashboard Ver 1.0
 
 This Cryptocurrency Dashboard was created for enthusiasts on Crypto.
 
-Live Demo: http://classborndashboard.tk
+Live Demo: http://classborn.byethost7.com/dashboard.html
 
 Requirements:
 Copy the files on a web server with PHP 7 with libcurl package enabled.
