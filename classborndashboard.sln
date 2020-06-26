@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "classborndashboard", "D:\Projects\classborndashboard\", "{55CFA2AB-F7B3-4AB9-9E44-A7D142617502}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "classborndashboard", "C:\Projects\classborndashboard\", "{55CFA2AB-F7B3-4AB9-9E44-A7D142617502}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51242"
-		Debug.AspNetCompiler.PhysicalPath = "D:\Projects\classborndashboard\"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Projects\classborndashboard\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51242\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_51242"
-		Release.AspNetCompiler.PhysicalPath = "D:\Projects\classborndashboard\"
+		Release.AspNetCompiler.PhysicalPath = "C:\Projects\classborndashboard\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51242\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51242"
-		SlnRelativePath = "D:\Projects\classborndashboard\"
+		SlnRelativePath = "C:\Projects\classborndashboard\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
