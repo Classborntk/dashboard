@@ -129,13 +129,13 @@ function onloadPage() {
     }
     document.body.appendChild(iframe);
     setTimeout(function () {
-        iframe.src = url;
+        iframe.src = setProtocol(url);
     }, 2000);    
 
     var rrefresh = setInterval(function () {
         runonce = false;
         removecontents();
-        iframe.src = url;
+        iframe.src = setProtocol(url);
     }, 300000);
     
 }

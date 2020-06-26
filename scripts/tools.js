@@ -64,3 +64,11 @@ Element.prototype.removeClassName = function (b) {
 Element.prototype.toggleClassName = function (a) {
     this[this.hasClassName(a) ? "removeClassName" : "addClassName"](a);
 };
+
+function setProtocol(url) {
+    var getProtocol = window.location.protocol;
+    if (getProtocol == 'https:') {
+        url = url.replace(/\http:/g, "https:");
+    }
+    return url;
+}

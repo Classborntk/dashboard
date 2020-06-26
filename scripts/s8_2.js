@@ -144,7 +144,7 @@ function onloadPage() {
 
     iframe = document.createElement('iframe');
     iframe.id = 'json1';
-    iframe.src = url;
+    iframe.src = setProtocol(url);
     iframe.style.display = 'none';
     if (iframe.attachEvent) {
         iframe.attachEvent("onload", function () {
@@ -159,7 +159,7 @@ function onloadPage() {
 
     var rrefresh = setInterval(function () {
         removecontents();
-        iframe.src = url;
+        iframe.src = setProtocol(url);
     }, 300000);
 
 }

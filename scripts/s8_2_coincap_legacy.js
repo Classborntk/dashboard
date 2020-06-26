@@ -44,7 +44,7 @@ function loadcontents() {
     heat.setAttribute('style','display:none;position:absolute;left:65%;top:90%;font-weight: bold;' + scolor);
     document.body.appendChild(heat);
 
-    iframe.src = url2;
+    iframe.src = setProtocol(url2);
 }
 
 function removecontents() {
@@ -140,7 +140,7 @@ function onloadPage() {
 
     iframe = document.createElement('iframe');
     iframe.id = 'json1';
-    iframe.src = url;
+    iframe.src = setProtocol(url);
     iframe.style.display = 'none';
     if (iframe.attachEvent) {
         iframe.attachEvent("onload", function () {
@@ -155,7 +155,7 @@ function onloadPage() {
 
     var rrefresh = setInterval(function () {
         removecontents();
-        iframe.src = url;
+        iframe.src = setProtocol(url);
     }, 300000);
 
 }
